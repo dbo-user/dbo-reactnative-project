@@ -4,6 +4,9 @@ import { Text, View } from 'react-native';
 
 class Home extends Component {
     
+    static navigationOptions = {
+        title: 'Home'
+    } // end navigationOptions
     
     render() {
         return (

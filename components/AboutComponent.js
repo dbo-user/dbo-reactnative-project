@@ -4,6 +4,9 @@ import { Text, View } from 'react-native';
 
 class About extends Component {
     
+    static navigationOptions = {
+        title: 'About'
+    } // end navigationOptions
     
     render() {
         return (

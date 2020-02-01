@@ -4,6 +4,9 @@ import { Text, View } from 'react-native';
 
 class Portfolio extends Component {
     
+    static navigationOptions = {
+        title: 'Portfolio'
+    } // end navigationOptions
     
     render() {
         return (
